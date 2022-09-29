@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "Pluggable Components"
-linkTitle: "Developing Components"
+title: "Creating external gRPC Components"
+linkTitle: "Developing gRPC Components"
 weight: 250
 description: "Extend dapr with external gRPC-based components"
 ---
