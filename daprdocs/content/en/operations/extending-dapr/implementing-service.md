@@ -1,12 +1,12 @@
 ---
 type: docs
 title: "How-To: Implement your external gRPC-based component"
-linkTitle: "Implementing external gRPC components"
+linkTitle: "Implement external gRPC components"
 weight: 250
 description: "Implement an external gRPC-based component in Dapr"
 ---
 
-### Implementing your service
+### Implement your gRPC component
 
 <img src="/images/pluggable-component-arch.png" width=800 alt="Diagram showing the final MemStore design">
 
