@@ -8,7 +8,7 @@ description: "Implement an external gRPC-based component in Dapr"
 
 ### Implementing your service
 
-<img src="/images/pluggable-component-arch.png" width=800 alt="Diagram showing the final MemStore design">
+<img src="/images/pluggable-component-arch.png" width=800>
 
 Go to our `MemStoreService.cs` and let's override the ListFeature method
 
