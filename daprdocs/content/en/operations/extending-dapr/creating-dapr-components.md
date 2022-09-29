@@ -22,7 +22,7 @@ spec:
   version: v1
 ```
 
-## Developing a Pluggable Component from scratch
+## Create a Pluggable Component from scratch
 
 {{< tabs ".NET" >}}
 {{% codetab %}}
@@ -308,4 +308,10 @@ app.MapGet("/", () => "Communication with gRPC endpoints must be made through a 
 app.Run();
 ```
 
-Now we are ready to go,
+Now you're ready to go!
+
+## Next steps
+- Learn how to implament your external gRPC component [service invocation API specification]({{< ref service_invocation_api.md >}}). This reference guide for service invocation describes how to invoke methods on other services.
+- Understand the [service invocation performance numbers]({{< ref perf-service-invocation.md >}}).
+- Take a look at [observability]({{< ref monitoring.md >}}). Here you can dig into Dapr's monitoring tools like tracing, metrics and logging.
+- Read up on our [security practices]({{< ref monitoring.md >}}) around mTLS encryption, token authentication, and endpoint authorization.
