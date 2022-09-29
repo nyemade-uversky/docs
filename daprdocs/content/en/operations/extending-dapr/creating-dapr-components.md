@@ -310,8 +310,6 @@ app.Run();
 
 Now you're ready to go!
 
+
 ## Next steps
-- Learn how to implament your external gRPC component [service invocation API specification]({{< ref service_invocation_api.md >}}). This reference guide for service invocation describes how to invoke methods on other services.
-- Understand the [service invocation performance numbers]({{< ref perf-service-invocation.md >}}).
-- Take a look at [observability]({{< ref monitoring.md >}}). Here you can dig into Dapr's monitoring tools like tracing, metrics and logging.
-- Read up on our [security practices]({{< ref monitoring.md >}}) around mTLS encryption, token authentication, and endpoint authorization.
+- Learn how to [implament an external gRPC component]({{< implement-gRPC-component.md >}}). This is guide on how to implement external gRPC components in Dapr. 
