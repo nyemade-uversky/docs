@@ -23,8 +23,3 @@ public class MemStoreService : StateStore.StateStoreBase
         return Task.FromResult(resp);
     }
 }
-```
-
-{{% /codetab %}}
-
-{{< /tabs >}}
