@@ -312,4 +312,4 @@ Now you're ready to go!
 
 
 ## Next steps
-- Learn how to [implament an external gRPC component]({{< ref implement-gRPC-component.md >}}). This is guide on how to implement external gRPC components in Dapr. 
+- Learn how to [implament an external gRPC component]({{< ref implement-external-gRPC-components.md >}}). This is guide on how to implement external gRPC components in Dapr. 
