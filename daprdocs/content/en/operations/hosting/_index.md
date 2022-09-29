@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "Hosting options for Dapr"
-linkTitle: "Hosting options"
+title: "Extending Dapr"
+linkTitle: "Extending Dapr"
 weight: 100
-description: "How to deploy Dapr into your environment."
+description: "How to extend Dapr."
 ---
