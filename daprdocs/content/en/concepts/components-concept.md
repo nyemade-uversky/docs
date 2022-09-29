@@ -76,7 +76,11 @@ Lock components are used as a distributed lock to provide mutually exclusive acc
 
 ### Middleware
 
-Dapr allows custom [middleware]({{<ref "middleware.md">}})  to be plugged into the HTTP request processing pipeline. Middleware can perform additional actions on an HTTP request, such as authentication, encryption and message transformation before the request is routed to the user code, or before the response is returned to the client. The middleware components are used with the [service invocation]({{<ref "service-invocation-overview.md">}}) building block.
+Dapr allows custom [middleware]({{<ref "middleware.md">}})  to be plugged into the HTTP request processing pipeline. Middleware can perform additional actions on an HTTP request, such as authentication, encryption and message transformation before the request is routed to the user code, or before the response is returned to the client. The middleware components are used with the [service invocation]({{<ref "service-invocation-overview.md">}}) building block.\
+
+## Decoupled components
+If a component is not already supplied through Dapr, there is an option to extend dapr to use your own component (decoupled from Dapr-provided components). This Dapr feature provides a general-purpose mechanism for implementing Dapr components outside of the daprd binary itself. 
+
 
 - [List of supported middleware components]({{< ref supported-middleware >}})
 - [Middleware implementations](https://github.com/dapr/components-contrib/tree/master/middleware)
