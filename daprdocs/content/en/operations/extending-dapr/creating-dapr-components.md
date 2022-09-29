@@ -1,7 +1,7 @@
 ---
 type: docs
 title: "How-To: Create external gRPC components"
-linkTitle: "Creating external gRPC components"
+linkTitle: "Create external gRPC components"
 weight: 250
 description: "Extend dapr with external gRPC-based components"
 ---
